@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>FLYF2</title>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script type="text/javascript">
+            $(init);
+        </script>
+    </head>
+    <body>
+        <a onclick="afficherFormConnexion()">connexion/</a>
+        <a>creer compte</a>
+        <br><br>
+        <form action="">
+            <fieldset name="infoVols" id="rechercherVol">
+                <div name="villes">
+                    <label for="depart">ville de depart : </label>
+                    <input type="text" name="depart" id="depart" required placeholder="exemple : montreal">
+                    <label for="destination">ville de destination : </label>
+                    <input type="text" name="destination" id="destination" required placeholder="exemple : paris"><br>
+                </div>
+                <div name="dates">
+                    <label for="dateDepart">date de depart : </label>
+                    <input type="text" name="dateDepart" id="dateDepart" placeholder="jj/mm/yy">
+                    <label for="dateRetour">date de retour : </label>
+                    <input type="text" name="dateRetour" id="dateRetour" placeholder="jj/mm/yy">
+                </div>
+                    <label for="passagers">Nombre de passagers : </label>
+                    <select name="passagers" id="passagers">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="plus">plus</option>
+                   </select><br>
+                <input type="submit" id="rechercherVol" value="rechercher" onclick="rechercherVolForm()">
+            </fieldset>
+        </form>
+        
+        <form action="" hidden="false">
+            <fieldset>
+                <label for="courriel">connexion : </label>
+                <input type="text" name="courriel" id="courriel">
+            </fieldset>
+        </form>
+        <span>
+            <h2>Nos destinations</h2>
+        
+            <p>New-york</p>
+        </span>
+        
+
+    </body>
+</html>
