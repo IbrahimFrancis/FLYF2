@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>FLYF2</title>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <a href="connexion.html">connexion</a>
+        <br><br>
+        <form>
+            <fieldset name="infoCompte" id="creerCompte">
+                <div>
+                    <label for="nom">Nom : </label>
+                    <input type="text" name="nom" id="nom" required><br><br>
+                    <label for="prenom">Prenom : </label>
+                    <input type="text" name="prenom" id="prenom" required ><br><br>
+
+                    <label for="courriel">Courriel : </label>
+                    <input type="text" name="courriel" id="courriel" required><br><br>
+                    <label for="mdp">Mot de passe : </label>
+                    <input type="password" name="mdp" id="mdp" required><br><br>
+                    <label for="validermdp">Valider Mot de passe : </label>
+                    <input type="password" name="validermdp" id="validermdp" required><br><br>
+                    <label for="adresse">Adresse : </label>
+                    <input type="text" name="adresse" id="adresse" size="50"><br><br>
+                    <label for="codePostal">Code postal : </label>
+                    <input type="text" name="codePostal" id="codePostal" size="7"><br><br>
+                    <label for="pays">Pays : </label>
+                    <input type="text" name="codePostal" id="codePostal"><br><br>
+                    <label for="ville">Ville : </label>
+                    <input type="text" name="ville" id="ville" required><br><br>
+                </div>
+                <input type="submit" id="creerCompte" value="creer" onclick="creerCompte()">
+            </fieldset>
+        </form>
+    
+        <br>
+        <span>
+            <h2>Nos destinations</h2>
+            <h3>montreal</h3>
+            <h3>new york</h3>
+            <h3>paris</h3>
+            <h3>tokyo</h3>
+            <h3>shangai</h3>
+        </span>
+        
+        <footer>
+            <a href="index.html">retour à l'accueil</a>
+        </footer>
+
+    </body>
+</html>

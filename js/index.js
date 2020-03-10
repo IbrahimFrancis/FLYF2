@@ -10,7 +10,6 @@ function init(){
 var ville = new Array("montreal", "new york");
 
 var vol = new Object();
-
 //constructeur de vol
 function Vol(origine, destination, prix){
 }

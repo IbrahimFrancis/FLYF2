@@ -11,8 +11,9 @@
         </script>
     </head>
     <body>
-        <a onclick="afficherFormConnexion()">connexion/</a>
-        <a>creer compte</a>
+        <a href="connexion.html">connexion</a>/
+        
+        <a href="creerCompte.html">creer compte</a>
         <br><br>
         <form action="">
             <fieldset name="infoVols" id="rechercherVol">
@@ -22,12 +23,14 @@
                     <label for="destination">ville de destination : </label>
                     <input type="text" name="destination" id="destination" required placeholder="exemple : paris"><br>
                 </div>
+                <br>
                 <div name="dates">
                     <label for="dateDepart">date de depart : </label>
                     <input type="text" name="dateDepart" id="dateDepart" placeholder="jj/mm/yy">
                     <label for="dateRetour">date de retour : </label>
                     <input type="text" name="dateRetour" id="dateRetour" placeholder="jj/mm/yy">
                 </div>
+                <br>
                     <label for="passagers">Nombre de passagers : </label>
                     <select name="passagers" id="passagers">
                         <option value="1" selected>1</option>
@@ -35,21 +38,19 @@
                         <option value="3">3</option>
                         <option value="4">4</option>
                         <option value="plus">plus</option>
-                   </select><br>
+                   </select><br><br>
                 <input type="submit" id="rechercherVol" value="rechercher" onclick="rechercherVolForm()">
             </fieldset>
-        </form>
-        
-        <form action="" hidden="false">
-            <fieldset>
-                <label for="courriel">connexion : </label>
-                <input type="text" name="courriel" id="courriel">
-            </fieldset>
-        </form>
+        </form><br><br>
+
+        <br><br>
         <span>
             <h2>Nos destinations</h2>
-        
-            <p>New-york</p>
+            <h3>montreal</h3>
+            <h3>new york</h3>
+            <h3>paris</h3>
+            <h3>tokyo</h3>
+            <h3>shangai</h3>
         </span>
         
 

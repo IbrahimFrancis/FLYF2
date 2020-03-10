@@ -1,0 +1,64 @@
+[
+    {
+        "nom": "b777-300er",
+        "nbPlaces": 300,
+        "classes": [
+                     {
+                        "type" : "business",
+                        "nbPlaces" : 100,
+                        "prix" : 3000
+                     },
+                     {
+                        "type" : "premiumEcomomy",
+                        "nbPlaces" : 100,
+                        "prix" : 2000
+                     },
+                     {
+                        "type" : "ecomomy",
+                        "nbPlaces" : 100,
+                        "prix" : 1000
+                     }
+                    ],
+        "nbAppareils" : 2
+    },
+    {
+        "nom": "b787-800",
+        "nbPlaces": 280,
+        "classes": [
+                    {
+                        "type" : "business",
+                        "nbPlaces" : 40,
+                        "prix" : 3000
+                    },
+                    {
+                        "type" : "premiumEcomomy",
+                        "nbPlaces" : 80,
+                        "prix" : 2000
+                    },
+                    {
+                        "type" : "ecomomy",
+                        "nbPlaces" : 160,
+                        "prix" : 1000
+                    }
+                ],
+        "nbAppareils" : 2
+    },
+    {
+        "nom": "a320-200",
+        "nbPlaces": 100,
+        "classes": [
+                    {
+                        "type" : "business",
+                        "nbPlaces" : 20,
+                        "prix" : 800
+                    },
+                    {
+                        "type" : "ecomomy",
+                        "nbPlaces" : 80,
+                        "prix" : 400
+                    }
+                ],
+        "nbAppareils" : 2
+    }
+        
+]
