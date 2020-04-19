@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>FLYF2 - Paiement</title>
+        </head>
+        <body>
+            <br><br>
+            <form action="/action_page.php">
+                Informations du client
+                <fieldset name="infoClient" id="Client">
+                    <label for="prenom">Prenom : </label><br>
+                    <input type="text" name="prenom" id="prenom" required ><br>
+                    <label for="nom">Nom : </label><br>
+                    <input type="text" name="nom" id="nom" required><br>
+                    <label for="courriel">Courriel : </label><br>
+                    <input type="text" name="courriel" id="courriel" required><br>
+                    
+                    <label for="genre">Genre : </label><br>
+                    <input type="radio" id="Homme" name="Genre" value="Homme">
+                    <label for="Homme">Homme</label>
+                    <input type="radio" id="Femme" name="Genre" value="Femme">
+                    <label for="Femme">Femme</label><br>
+                    <label for="mdp">Mot de passe : </label><br>
+                    <input type="password" name="mdp" id="mdp" required><br>
+                    <label for="validermdp">Valider Mot de passe : </label><br>
+                    <input type="password" name="validermdp" id="validermdp" required><br>
+                    
+                    <label for="adresse">Adresse : </label><br>
+                    <input type="text" name="adresse" id="adresse" size="50"><br>
+                    <label for="codePostal">Code postal : </label><br>
+                    <input type="text" name="codePostal" id="codePostal" size="7"><br>
+                    <label for="pays">Pays : </label><br>
+                    <input type="text" name="codePostal" id="codePostal"><br>
+                    <label for="ville">Ville : </label><br>
+                    <input type="text" name="ville" id="ville" required><br>
+                </fieldset>
+                <br>
+                Informations de paiement<br>
+                <fieldset name="infoPaiement" id="Paiement">
+                    <label for="cardholderName">Nom du détenteur :</label><br>
+                    <input type="text" id="cardholderName" name="cardholderName"><br>
+                    <label for="cardNumber">Numero de carte :</label>
+                    &emsp;&emsp;&emsp;&nbsp;<label for="cardNumber">CVC/CVV :</label><br>
+                    <input type="text" id="cardNumber" name="cardNumber" maxlength="16" >
+                    <input type="text" id="cardNumber" name="cardNumber" maxlength="3" ><br>
+
+                    <label for="DateExp">Date d'expiration:</label><br>
+                    <input type="month" id="DateExp" name="DateExp" ><br>
+
+                    <input type="radio" id="Visa" name="TypeCC" value="Visa">
+                    <label for="Visa">Visa</label><br>
+                    <input type="radio" id="Mastercard" name="TypeCC" value="Mastercard">
+                    <label for="Mastercard">Mastercard</label><br>
+                    <br>
+                    <input type="submit" id="Paiement" value="Soumettre"><br>
+                </fieldset>
+            </form>
+
+            <br>
+        <span>
+            <h2>Nos destinations</h2>
+            <h3>montreal</h3>
+            <h3>new york</h3>
+            <h3>paris</h3>
+            <h3>tokyo</h3>
+            <h3>shangai</h3>
+        </span>
+        
+        <footer>
+            <a href="index.html">retour à l'accueil</a>
+        </footer>
+
+
+
+
+        </body>
+</html>
